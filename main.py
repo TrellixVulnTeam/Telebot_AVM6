@@ -14,7 +14,7 @@ def start(message):
     markup_inline.add(item_about)
     bot.send_message(message.chat.id, 'Привет!\nВведи страну где ты живешь\nЧтобы узнать больше нажми кнопку!Введи страну где ты живешь\n',reply_markup = markup_inline)
                                     
-                                      '
+                                      
 
 
 
