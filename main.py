@@ -1,9 +1,8 @@
-import json
 import telebot
 from telebot import types
 from covid19_cases import corona19
 import COVID19Py
-from bs4 import BeautifulSoup
+
 
 covid19 = COVID19Py.COVID19()
 bot = telebot.TeleBot("1418850232:AAFc44xOkFdbYJyKgA2_CtDM3VGRvFq6uos")
@@ -48,7 +47,3 @@ def mess(message):
 
 
 bot.polling(none_stop=True)
-
-
-removeKeyboard = {'remove_keyboard':True}
-removeKeyboardEncoded = json.dumps(removeKeyboard)
